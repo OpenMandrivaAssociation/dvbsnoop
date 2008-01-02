@@ -33,6 +33,7 @@ Patch:		dvbsnoop-1.3.0_drop_FE_CAN_CLEAN_SETUP.patch
 URL:		http://dvbsnoop.sf.net
 License:	GPL
 Group:		Video
+BuildRoot:	%{_tmppath}/%{name}-buildroot
 Prefix:		%{_prefix}
 BuildRequires:	glibc-devel
 
