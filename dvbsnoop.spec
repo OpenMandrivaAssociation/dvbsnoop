@@ -2,7 +2,7 @@
 
 %define name	dvbsnoop
 %define version 1.4.00
-%define mdkrel	%mkrel 2
+%define mdkrel	%mkrel 3
 %define beta	0
 
 
