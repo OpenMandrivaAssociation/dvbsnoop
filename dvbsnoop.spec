@@ -1,7 +1,7 @@
 Summary:	A simple dvb/mpeg stream analyzer program
 Name:		dvbsnoop
 Version:	1.4.50
-Release:	16
+Release:	17
 License:	GPLv2
 Group:		Video
 Url:		http://dvbsnoop.sf.net
