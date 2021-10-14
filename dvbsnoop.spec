@@ -1,7 +1,7 @@
 Summary:	A simple dvb/mpeg stream analyzer program
 Name:		dvbsnoop
 Version:	1.4.50
-Release:	18
+Release:	19
 License:	GPLv2
 Group:		Video
 Url:		http://dvbsnoop.sf.net
@@ -15,19 +15,18 @@ stream information (digital television) send via satellite, cable or
 terrestrial.
 
 %prep
-%setup -q
+%autosetup -p1
 # Fix permissions
 find . -perm 0744 -exec chmod 0644 '{}' \;
 
 %build
-%configure2_5x
-%make
+%configure
+%make_build
 
 %install
-%makeinstall_std
+%make_install
 
 %files
 %doc README COPYING 
 %{_bindir}/*
-%{_mandir}/man1/*
-
+%doc %{_mandir}/man1/*
