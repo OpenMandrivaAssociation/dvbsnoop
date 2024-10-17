@@ -4,7 +4,7 @@ Version:	1.4.50
 Release:	20
 License:	GPLv2
 Group:		Video
-Url:		http://dvbsnoop.sf.net
+Url:		https://dvbsnoop.sf.net
 Source0:	http://osdn.dl.sourceforge.net/dvbsnoop/%{name}-%{version}.tar.gz
 BuildRequires:	glibc-devel
 
