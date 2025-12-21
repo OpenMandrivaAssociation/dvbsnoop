@@ -6,6 +6,11 @@ License:	GPLv2
 Group:		Video
 Url:		https://dvbsnoop.sf.net
 Source0:	http://osdn.dl.sourceforge.net/dvbsnoop/%{name}-%{version}.tar.gz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	glibc-devel
 
 %description
